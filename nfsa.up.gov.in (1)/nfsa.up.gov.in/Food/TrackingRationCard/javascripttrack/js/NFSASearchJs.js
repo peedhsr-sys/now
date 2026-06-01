@@ -158,8 +158,8 @@ function changeBackRedirect() {
 function BindRationCard() {
    
     var dataobject = {
-        RCID: $("#txtRC").val().trim(),
-    };
+    RCID: "119040407269",
+};
 
     $.ajax({
         url: "NFSARCSearch.aspx/BindData",
